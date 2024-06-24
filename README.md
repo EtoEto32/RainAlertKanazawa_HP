@@ -1,0 +1,2 @@
+# RainAlertKanazawa_HP
+Androidアプリの紹介ぺージ
