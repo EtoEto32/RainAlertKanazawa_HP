@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.image-container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.image-container img {
+    width: 100%;
+    max-height: 700px;
+    height: auto;
+    display: block;
+}
+
+.main-container {
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+}
+
+.features-section,
+.pricing-section,
+.contact-section {
+    padding: 20px 0;
+    margin-bottom: 20px; /* 調整可能 */
+}
+
+.box {
+    background-color: #ffffff;
+    border: solid;
+    padding: 20px;
+    border-radius: 10px; /* 角を少し丸く */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 影付き */
+    width: 100%;
+    margin: 0 auto;
+}
+
+footer {
+    background-image: url("../images/rain_footer.jpg");
+    background-position: center; /* 画像を中央に配置 */
+    background-repeat: no-repeat; /* 画像を繰り返さない */
+    background-size: cover; /* 画像をカバーする */
+    padding: 20px 0;
+    margin-top: 20px; /* 調整可能 */
+    color: white; /* テキストの色を白に設定 */
+    text-align: center; /* 中央揃え */
+}
+
+.footer-text {
+    text-shadow: 2px 2px 4px #000000; /* テキストに縁取り */
+}
